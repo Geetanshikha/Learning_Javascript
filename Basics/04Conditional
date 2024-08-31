@@ -1,0 +1,31 @@
+//ohk so we will take the temperature and then on the basis of the temperature will decide the intensity of collness and sunny
+
+var temperature;
+
+//ohk so now lets assume that google has taken the temperature from user 
+
+temperature= 9;
+//if runs on boolean values like true and false 
+//if runs on true statements 
+//else runs for false statements !
+if(temperature == 39)//if always works for true ! so 9==39 false 
+{
+    console.log("it is not so hot");
+}
+
+if(temperature > 20)
+{
+    console.log("it is moderate ");
+}
+
+if(temperature < 20 )
+{
+    console.log("it is very cold");
+}
+else{
+    console.log("not a a good weather !")
+}
+
+//and the conditions that we are having 
+//>= , <= , == , < , > , !=
+
